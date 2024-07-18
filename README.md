@@ -1,2 +1,2 @@
 # Online-Examination-System
-Under Development Phase
+Under the development phase
