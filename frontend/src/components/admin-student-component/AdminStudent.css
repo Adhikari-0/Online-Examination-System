@@ -1,0 +1,61 @@
+.admin-student {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-student-header {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px 0px;
+}
+
+.admin-student-header-name {
+    text-align: center;
+    font-size: 30px;
+}
+
+.admin-student-header-count {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 0px 30px 0px 0px;
+}
+
+.admin-student-header-count-image img:nth-child(1) {
+    margin: 0px 20px 0px 20px;
+}
+
+.admin-student-header-count-image img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.admin-students-list {
+    float: left;
+    margin: 10px 5px 0px;
+}
+
+.admin-students-list table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.admin-students-list td,
+.admin-students-list th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.admin-students-list tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.admin-students-list td:nth-last-child(2),
+.admin-students-list td:last-child{
+    cursor: pointer;
+}

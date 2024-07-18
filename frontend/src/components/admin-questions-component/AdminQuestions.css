@@ -1,0 +1,79 @@
+.admin-questions {
+    padding-top: 60px;
+    margin: 0px 40px 10px;
+    min-width: 1000px;
+    min-height: 80vh;
+}
+
+.admin-questions-select-header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.admin-questions-select-option {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.admin-questions-select-option>input {
+    margin-left: 50px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: groove;
+    padding: 10px 10px;
+}
+
+.admin-questions-select-option>input:focus {
+    outline: none;
+}
+
+.admin-questions-select-count {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 15px 30px 0px 0px;
+}
+
+.admin-questions-select-count div:nth-child(1),
+.admin-questions-select-count div:nth-child(2) {
+    margin-top: 10px;
+}
+
+.admin-questions-select-count-image img:nth-child(1) {
+    margin: 0px 20px 0px 20px;
+}
+
+.admin-questions-select-count-image img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.admin-questions-select-count button {
+    margin-left: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.admin-questions-list {
+    margin: 20px 20px 0px;
+}
+
+.admin-questions-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-questions-list table tbody tr td {
+    border: 1px solid #dddddd;
+}
+
+.admin-questions-list td:nth-child(3),
+.admin-questions-list td:nth-child(4) {
+    text-align: center;
+    cursor: pointer;
+}
+
+.admin-questions-list tr:nth-child(even) {
+    background-color: #dddddd;
+}

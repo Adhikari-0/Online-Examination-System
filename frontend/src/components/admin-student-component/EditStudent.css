@@ -1,0 +1,61 @@
+.editstudent{
+    padding-top: 60px;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.editstudent-heading{
+    text-align: center;
+    font-size: 40px;
+}
+.editstudent-profile{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 0px;
+}
+.editstudent-profile-image{
+    margin: 0 0 0 50px;
+}
+.editstudent-profile-image img{
+    background: rgb(107, 46, 46);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.editstudent-profile-detail{
+    /* border: 1px solid black; */
+    min-width: 900px;
+    margin: 40px 0px 0px 50px;
+}
+.editstudent-profile-detail-first-row input:nth-child(1){
+    width: 225px;
+}
+.editstudent-profile-detail-first-row input:nth-child(2){
+    margin-left: 20px;
+    width: 100px;
+}
+.editstudent-profile-detail-first-row input:nth-child(3){
+    margin-left: 20px;
+    width: 230px;
+}
+.editstudent-profile-detail-first-row input:nth-child(4){
+    margin-left: 20px;
+    width: 150px;
+}
+.editstudent-profile-detail-second-row{
+    margin: 30px 0px 0px 0px;
+}
+.editstudent-profile-detail-second-row input:nth-child(2){
+    margin-left: 50px;
+}
+.editstudent-profile-detail-first-row input,
+.editstudent-profile-detail-second-row input {
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: groove;
+    padding: 10px 10px;
+}
+.editstudent-profile-detail-first-row input:focus,
+.editstudent-profile-detail-second-row input:focus{
+    outline: none;
+}

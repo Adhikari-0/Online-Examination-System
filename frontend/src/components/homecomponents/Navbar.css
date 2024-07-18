@@ -1,0 +1,25 @@
+.home-navba {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.home-navba a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.home-navba a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.home-navba a.active {
+    background-color: #04AA6D;
+    color: white;
+}
